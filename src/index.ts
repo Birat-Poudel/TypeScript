@@ -14,7 +14,7 @@ let sum: number = 0
 numbers.forEach(n => sum += n) //Calls a function for each element in an array
 console.log(sum)
 
-let user: [number, string] = [1, 'Birat'] //Tuple
+let user1: [number, string] = [1, 'Birat'] //Tuple
 
 const enum Size {Small = 1, Medium = 2, Large = 3} //Enum
 let mySize: Size = Size.Medium

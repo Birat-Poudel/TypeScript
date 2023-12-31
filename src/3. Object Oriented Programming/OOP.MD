@@ -154,11 +154,17 @@ class Ride {
 }
 ```
 
-### Notes
+#### Notes
 
 - Use TypeGuard to narrow down the type
 ```TypeScript
 if (typeof someObj === "number") {}
+```
+
+- GuardClause
+    - Use at the top of the function
+```TypeScript
+if (!order) return;
 ```
 
 - Use instanceof than typeof while checking custom objects
